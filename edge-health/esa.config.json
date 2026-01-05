@@ -1,0 +1,12 @@
+{
+  "build": {
+    "command": "echo '构建完成'",
+    "directory": "."
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

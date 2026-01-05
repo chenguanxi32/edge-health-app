@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>健康管理助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🏥 EdgeHealth 健康管理</h1>
+    
+    <div class="container">
+        <div class="card">
+            <h2>今日步数</h2>
+            <div class="number">8,564</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+            </div>
+            <p>目标：10,000步</p>
+        </div>
+        
+        <div class="card">
+            <h2>卡路里消耗</h2>
+            <div class="number">423 <span>kcal</span></div>
+        </div>
+        
+        <div class="card">
+            <h2>睡眠时长</h2>
+            <div class="number">7.5 <span>小时</span></div>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <h2>本周步数趋势</h2>
+        <div id="chart"></div>
+    </div>
+    
+    <script src="app.js"></script>
+    
+    <!-- 阿里云ESA声明 -->
+    <div class="esa-badge">
+        <p>本项目由阿里云ESA提供加速、计算和保护</p>
+    </div>
+</body>
+</html>
