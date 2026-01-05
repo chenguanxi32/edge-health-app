@@ -1,1 +1,42 @@
-
+{
+  "name": "edgehealth-management",
+  "version": "1.0.0",
+  "description": "EdgeHealth 健康管理应用 - 基于阿里云ESA边缘计算平台的个人健康数据监测与分析工具",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo '项目已准备就绪，请直接在浏览器中打开 index.html 文件'",
+    "serve": "echo '使用本地服务器运行项目（推荐使用 Live Server 等工具）'",
+    "build": "echo '构建完成 - 该项目为纯前端应用，无需复杂构建流程'",
+    "deploy": "echo '请将项目文件部署到阿里云ESA边缘计算平台'"
+  },
+  "keywords": [
+    "健康管理",
+    "步数统计",
+    "卡路里计算",
+    "睡眠监测",
+    "数据可视化",
+    "阿里云",
+    "ESA",
+    "边缘计算",
+    "前端应用"
+  ],
+  "author": "EdgeHealth Developer",
+  "license": "MIT",
+  "homepage": "https://your-esa-pages-domain.com", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/edgehealth-management.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "notes": "这是一个纯前端项目，主要文件包括：\n- index.html (主页面)\n- style.css (样式文件)\n- app.js (JavaScript逻辑)\n- 构建配置文件 (build.config)\n\n项目通过阿里云ESA边缘计算平台部署，无需传统后端服务器。"
+}
